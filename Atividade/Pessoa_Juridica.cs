@@ -10,7 +10,7 @@ namespace Atividade
     {
         // Propriedade para armazenar o CNPJ da pessoa jurídica
         public string cnpj { get; set; }
-        // Propriedade para armazenar a inscrição estadual da pessoa jurídica
+        // Propriedade para armazenar a inscrição estadual (IE) da pessoa jurídica
         public string ie { get; set; }
 
         // Sobrescreve o método para calcular imposto específico de pessoa jurídica
